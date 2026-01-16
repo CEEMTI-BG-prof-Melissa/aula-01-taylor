@@ -1,0 +1,72 @@
+div {
+    padding: 50px;
+    margin: 10px;
+}
+
+.borda{
+    border: 10px dashed black;
+}
+
+#primeiro{
+    background-color: #ccc;
+}
+
+#segundo{
+    background-image: url(Pato.jpg);
+}
+
+#terceiro{
+    background-image: url(Pato.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#quarto{
+    background-image: url(Pato.jpg);
+    background-size: cover;
+}
+
+#quinta{
+    background-image: url(Pato.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sexto{
+    background-image: url(Pato.jpg);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+}
+
+#setimo{
+    background-image: url(Pato.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+#oitavo{
+    background-image: url(Pato.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#nono{
+    background-image: url(Pato.jpg);
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+}
+
+#decimo{
+    background-image: url(Pato.jpg);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+}
+
+#onze{
+    background-image: url(Pato.jpg);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
+#doze {
+    background: black url(Pato.jpg) center 500px no-repeat;
+}
